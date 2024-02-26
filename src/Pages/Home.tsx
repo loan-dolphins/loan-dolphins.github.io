@@ -21,6 +21,7 @@ export default function Home() {
                             start: 0.5,
                             end: 4,
                         }}
+                        speed={2}
                     >
                         <Header />
                     </ParallaxLayer>

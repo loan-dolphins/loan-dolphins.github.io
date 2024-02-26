@@ -9,7 +9,7 @@ let Header = () => {
                             <a href="#about">About</a>
                         </li>
                         <li>
-                            <a href="#projects">Projects</a>
+                            <a href="#services">Services</a>
                         </li>
                         <li>
                             <a href="#contact">Contact</a>
