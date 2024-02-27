@@ -80,3 +80,25 @@ button:focus-visible {
         opacity: 0;
     }
 }
+
+.gradient-text {
+    background-image: linear-gradient(to right, #3b82f6, #10b981, #6366f1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.stylised-title.slide-in .gradient-text {
+    animation: slideBg 2s ease-in-out forwards;
+}
+
+@keyframes slideBg {
+    0% {
+        background-position: -100%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
