@@ -13,7 +13,7 @@ let BackgroundBubbles = () => {
                     backgroundSize: 'cover',
                     backgroundPositionX: '30%',
                 }}
-                className="bg-cover bubbles"
+                className="bg-cover bubbles ml-[20%]"
             ></ParallaxLayer>
             <ParallaxLayer
                 offset={0.66}
@@ -24,7 +24,7 @@ let BackgroundBubbles = () => {
                     backgroundSize: 'cover',
                     backgroundPositionX: '55%',
                 }}
-                className="bg-cover bubbles"
+                className="bg-cover bubbles -ml-[20%]"
             ></ParallaxLayer>
             <ParallaxLayer
                 offset={0.99}
