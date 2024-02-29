@@ -1,8 +1,6 @@
 'use client';
 import { TypeAnimation } from 'react-type-animation';
 
-const CURSOR_CLASS_NAME = 'show-cursor';
-
 export function Title() {
     return (
         <h1 className="flex justify-center tarnsition-all">
