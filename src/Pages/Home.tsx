@@ -232,7 +232,8 @@ export default function Home() {
                                 alt="Accessibility"
                                 className="w-[80%] m-10"
                             />
-                            <p className="text-xl text-blue-400 opacity-70 mx-[20%] text-center font-inter leading-relaxed">
+
+                            <p className="bg-gray-800 p-4 rounded-lg flex flex-col max-w-fit bg-opacity-20 text-xl text-blue-400 opacity-70 mx-[20%] text-center font-inter leading-relaxed">
                                 At Dolphin Loans, accessibility is paramount.
                                 Our commitment to inclusivity extends to every
                                 aspect of our services. We've chosen a blue
