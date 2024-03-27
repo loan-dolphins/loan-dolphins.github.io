@@ -16,7 +16,7 @@ let Header = () => {
                                     key={index}
                                     className="transition-all duration-200  hover:scale-110 text-lg hover"
                                 >
-                                    <a href={`#${item.toLowerCase()}`} className="text-neutral-300 text-[0.9em] font-nunito font-normal hover:text-violet-500 transition-all duration-300 ease-in-out">
+                                    <a href={`#${item.toLowerCase()}`} className="text-neutral-300 text-[0.9em] font-nunito  hover:text-violet-500 transition-all duration-300 ease-in-out text-lg">
                                         {item}
                                     </a>
                                 </li>
